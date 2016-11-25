@@ -1,16 +1,10 @@
-import './index.css'
+import './Root.css'
 
 import React from 'react'
 import Home from './layouts/Home';
 import Page from './layouts/Page';
 import Post from './layouts/Post';
 
-const Root = () => (
-	<div>
-		<p>123</p>
-	</div>
-);
-/*
 const Root = React.createClass({
 	getDefaultProps: function() {
 		return {params: location.pathname.split("/").slice(1)};
@@ -37,5 +31,5 @@ const Root = React.createClass({
 		}
 	}
 });
-*/
+
 export default Root
