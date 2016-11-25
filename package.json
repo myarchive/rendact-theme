@@ -1,10 +1,26 @@
 {
   "name": "rendact-theme-bootstrap",
   "version": "0.1.0",
-  "private": true,
+  "description": "Default theme for Rendact using Bootstrap.",
+  "author": "Rendact Team",
+  "license": "GPL",
+  "homepage": "https://github.com/rendact/rendact-theme-bootstrap#readme",
+  "repository": "https://github.com/rendact/rendact-theme-bootstrap.git",
+  "bugs": "https://github.com/rendact/rendact-theme-bootstrap/issues",
+  "main": "./lib/Root.js",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0"
+  },
   "dependencies": {
-	"react": "^15.4.0",
+    "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "bootstrap": "^4.0.0-alpha.5"
+  },
+  "babel": {
+    "plugins": ["transform-react-jsx"]
+  },
+  "scripts": {
+    "build": "babel src -d lib"
   }
 }
