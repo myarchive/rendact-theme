@@ -1,7 +1,7 @@
 {
-  "name": "rendact-theme-bootstrap",
+  "name": "rendact-theme",
   "version": "0.1.0",
-  "description": "Default theme for Rendact using Bootstrap.",
+  "description": "Default theme for Rendact.",
   "author": "Rendact Team",
   "license": "GPL",
   "homepage": "https://github.com/rendact/rendact-theme-bootstrap#readme",
@@ -15,8 +15,7 @@
   },
   "dependencies": {
     "react": "^15.4.0",
-    "react-dom": "^15.4.0",
-    "bootstrap": "^4.0.0-alpha.5"
+    "react-dom": "^15.4.0"
   },
   "babel": {
     "presets": [
